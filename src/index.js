@@ -1,13 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import App from './App';
+import Login from './paginas/login'
+import Cadastro from './paginas/cadastro'
+import Contato from './paginas/contato'
+import Destinos from './paginas/destinos'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <Routes>
+      <Route element={<App />} path="/" exact />
+      <Route element={<Login />} path="/login" />
+      <Route element={<Cadastro />} path="/cadastro" />
+      <Route element={<Contato />} path="/contato" />
+      <Route element={<Destinos />} path="/destinos" />
+    </Routes>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
