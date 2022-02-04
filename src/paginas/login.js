@@ -1,11 +1,16 @@
 import React from 'react'
+import Header from '../componentes/Header'
+
 function login() {
   return (
-    <div className="login">
-      
+    <>
+      <Header />
       <h1>login aqui</h1>
-      
-    </div>
+
+
+    </>
+
+
   );
 }
 

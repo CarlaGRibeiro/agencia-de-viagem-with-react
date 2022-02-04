@@ -1,11 +1,14 @@
 import React from 'react'
+import  Header from '../componentes/Header'
+
 function contato() {
   return (
-    <div className="contato">
+    <>  
+    <Header/>
       <h1>cadastro aqui</h1>
       
       
-    </div>
+    </>
   );
 }
 

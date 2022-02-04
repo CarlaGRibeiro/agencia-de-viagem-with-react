@@ -1,11 +1,14 @@
 import React from 'react'
+import  Header from '../componentes/Header'
+
 function destinos() {
   return (
-    <div className="destinos">
+    <>  
+    <Header/>
       
       <h1>destinos aqui</h1>
       
-    </div>
+    </>
   );
 }
 
