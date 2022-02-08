@@ -7,7 +7,7 @@ import Login from './paginas/login'
 import Cadastro from './paginas/cadastro'
 import Contato from './paginas/contato'
 import Destinos from './paginas/destinos'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 ReactDOM.render(
   <BrowserRouter>
     <Routes>

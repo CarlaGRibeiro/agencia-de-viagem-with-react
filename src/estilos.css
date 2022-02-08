@@ -1,0 +1,79 @@
+#header {
+    display: inline-block;
+    /*rgb(101, 211, 252);*/
+    background-color: rgb(101, 211, 252);
+    padding: 10px;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    display: flexbox;
+    text-align: center;
+}
+
+
+/*ok*/
+
+#mainhome {
+    background-image: url("./componentes/img/login.jpg");
+    background-position: absolute;
+    background-size: 1800px;
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+/*ok*/
+
+#divform {
+    height: 500px;
+    width: auto;
+    margin: auto;
+}
+
+
+/*ok*/
+
+#form {
+    height: 390px;
+    background-image: url("./componentes/img/login.jpg");
+    margin: auto;
+    padding: 20px;
+}
+
+
+/*ok*/
+
+#form1 {
+    height: 340px;
+    margin: auto;
+    padding: 20px;
+    background-image: url("./componentes/img/login.jpg");
+    background-position-x: 70%;
+}
+
+
+/*ok*/
+
+#divlogin {
+    height: 500px;
+    width: auto;
+    margin: auto;
+}
+
+
+/*ok*/
+
+#rodape {
+    background-color: rgb(101, 211, 252);
+    text-align: center;
+    display: flexbox;
+    letter-spacing: 1px;
+    background-position: absolute;
+    background-size: 1800px;
+    padding: 15px;
+    margin: 50px;
+    display: inline-;
+}

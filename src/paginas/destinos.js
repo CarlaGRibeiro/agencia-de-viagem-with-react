@@ -1,4 +1,6 @@
 import React from 'react'
+import '../estilos.css';
+
 import  Header from '../componentes/Header'
 
 function destinos() {

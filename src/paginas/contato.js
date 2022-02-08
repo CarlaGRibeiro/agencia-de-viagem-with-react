@@ -1,12 +1,15 @@
 import React from 'react'
+import '../estilos.css';
+import FormContato from '../componentes/FormContato'
 import Header from '../componentes/Header'
 
 function contato() {
   return (
     <>
       <Header />
+      <FormContato/>
 
-      <h1>contato aqui</h1>
+      
 
     </>
   );
