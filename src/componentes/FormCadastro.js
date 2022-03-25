@@ -4,6 +4,7 @@ import '../estilos.css';
 function FormCadastro() {
   return (
     <>
+ 
     <div id="divform" className="container-fluid bd-gray">
 <form className="row"> 
       <h3 class="text-center">Cadastro</h3>

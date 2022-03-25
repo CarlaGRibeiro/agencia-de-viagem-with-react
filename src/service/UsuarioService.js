@@ -19,7 +19,7 @@ class UsuarioService{
         return axios.put(url_data_api + '/' + usuarioId, usuario);
     }
 
-    deleteEmployee(usuarioId){
+    deleteUsuario(usuarioId){
         return axios.delete(url_data_api + '/' + usuarioId);
     }
 }
