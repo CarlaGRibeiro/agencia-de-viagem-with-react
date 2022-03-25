@@ -1,2 +1,1 @@
-fazer npm install 
-seguir realizando o npm start da aplicação
+1) npm install  2) npm start
