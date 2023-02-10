@@ -12,24 +12,24 @@ function Header() {
         <h1>Tardis Company</h1>
         <div className="container-fluid bd-gray">
 
-          <div className="row">
-            <div className="col-sm-1 ">
+          <div className="row-1">
+            <div className="col-sm-2 ">
              <Link to="/">Home</Link> 
             </div>
 
-            <div className="col-sm-1 ">
+            <div className="col-sm-2 ">
               <Link to="/login">Login</Link>
             </div>
 
-            <div className="col-sm-1 ">
+            <div className="col-sm-2 ">
               <Link to="/cadastro">Cadastro</Link>
             </div>
 
-            <div className="col-sm-1 ">
+            <div className="col-sm-2 ">
               <Link to="/contato">Contato</Link>
             </div>
 
-            <div className="col-sm-1 ">
+            <div className="col-sm-2 ">
               <Link to="/destinos">Destinos</Link>
             </div>
           </div>

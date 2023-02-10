@@ -9,7 +9,7 @@ import Contato from './paginas/contato'
 import Destinos from './paginas/destinos'
 import 'bootstrap/dist/css/bootstrap.min.css';
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Routes>
       <Route element={<App />} path="/" exact />
       <Route element={<Login />} path="/login" />

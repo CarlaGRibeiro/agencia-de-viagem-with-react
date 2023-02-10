@@ -13,7 +13,7 @@ function Footer() {
         <br/>
         Telefone de contato: (21) 94040-4040.
         <br/>
-        Endereço: Doctor Whoo, 40 - LostinTime.
+        Endereço: Lord's Cricket Ground, 40 - LostinTime.
       </p>
       </footer>
     </span>
