@@ -54,11 +54,11 @@ function FormViagem() {
                     </div>
 
                     <div class="row form-group">
-                      <div class="col-md-5">
+                      <div class="col-md-12">
                         <label for="date-start">Data da viagem</label>
                         <input type="text" id="date-start" class="form-control" />
                       </div>
-                      <div class="col-md-4">
+                      <div class="col-md-6">
                         <label for="mes">Mês</label>
                         <select name="#" id="mes" class="form-control">
                           <option value="">Selecione</option>
@@ -76,7 +76,7 @@ function FormViagem() {
                           <option value="">Dezembro</option>
                         </select>
                       </div>
-                      <div class="col-md-3">
+                      <div class="col-md-6">
                         <label for="ano">Ano</label>
                         <select name="#" id="mes" class="form-control">
                           <option value="">2022</option>
@@ -84,7 +84,7 @@ function FormViagem() {
                         </select>
                       </div>
                      
-                      <div class="row form-group">
+                      <div id="botoes-form" class="row form-group">
                         <div class="col-md-6">
                           <input type="submit" class="btn btn-primary btn-block" value="Submit" />
 

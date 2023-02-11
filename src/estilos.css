@@ -9,6 +9,7 @@
     letter-spacing: 1px;
     border-radius: 10px;
     text-align: center;
+    
 }
 
 #topo{
@@ -44,7 +45,10 @@ justify-content:space-evenly;
     font-weight:bold;
 }
 
+#botoes-form{
+margin-top:5%;
 
+}
 /*ok*/
 
 #divform {
@@ -66,25 +70,36 @@ justify-content:space-evenly;
 
 /*ok*/
 
-#form1 {
-    height: 340px;
-    margin: auto;
-    padding: 20px;
-    background-image: url("./componentes/img/login.jpg");
-    background-position-x: 70%;
-}
-
-
-/*ok*/
-
 #divlogin {
     height: 500px;
     width: auto;
     margin: auto;
 }
 
+#form1 {
+    height: 340px;
+    margin: auto;
+    padding: 20px;
+    background-image: url("./componentes/img/login.jpg");
+    background-position-x: 70%;
+    display:flex;
+    align-items:baseline;
+    
+    
+}
+
+.col-sm-6, .col-sm-12, .col-sm-8{
+margin: 10px 0;
+
+}
 
 /*ok*/
+
+
+
+
+/*ok*/
+
 
 #rodape {
     background-color: rgb(101, 211, 252);

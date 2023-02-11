@@ -3,34 +3,31 @@ import '../estilos.css';
 
 
 function FormLogin() {
-  
+
   return (
     <>
-          <div id="divlogin" className="container-fluid bd-gray">
+      <div id="divlogin" className="container-fluid bd-gray">
         <form className="row">
           <h3 class="text-center">Login</h3>
 
           <div id="form1" class="col-sm-3" >
             <div class="row">
-              <div class="col-sm-10 form-group">
+
+              <div class="col-sm-12 form-group">
                 <input class="form-control" id="login" name="login" placeholder="Login" type="text" required />
+              </div>
 
-                <br />
-    
-                <div class="col-sm-10 form-group">
-                  <input class="form-control" id="senha" name="senha" placeholder="Senha" type="text" required />
-                </div>
-                <br />
-                <br />
+              <div class="col-sm-12 form-group">
+                <input class="form-control" id="senha" name="senha" placeholder="Senha" type="text" required />
+              </div>
+              
                 <div class="col-sm-8 form-group">
-                  <button>Enviar</button>
-                </div>
-
+                <button class="btn btn-primary btn-block">Enviar</button>
               </div>
             </div>
           </div>
         </form>
-      </div>
+      </div >
     </>
   );
 }
