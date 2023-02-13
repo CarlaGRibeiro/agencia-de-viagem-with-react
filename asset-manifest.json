@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/agencia-de-viagem-with-react/static/css/main.d6f9210c.css",
+    "main.js": "/agencia-de-viagem-with-react/static/js/main.895964dd.js",
+    "static/js/787.a618c441.chunk.js": "/agencia-de-viagem-with-react/static/js/787.a618c441.chunk.js",
+    "static/media/mapamundi2.jpg": "/agencia-de-viagem-with-react/static/media/mapamundi2.b5f09886e2ce46b042b3.jpg",
+    "static/media/login.jpg": "/agencia-de-viagem-with-react/static/media/login.2394f8980a9183c74f6f.jpg",
+    "index.html": "/agencia-de-viagem-with-react/index.html",
+    "main.d6f9210c.css.map": "/agencia-de-viagem-with-react/static/css/main.d6f9210c.css.map",
+    "main.895964dd.js.map": "/agencia-de-viagem-with-react/static/js/main.895964dd.js.map",
+    "787.a618c441.chunk.js.map": "/agencia-de-viagem-with-react/static/js/787.a618c441.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6f9210c.css",
+    "static/js/main.895964dd.js"
+  ]
+}
