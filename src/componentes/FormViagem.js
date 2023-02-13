@@ -17,11 +17,11 @@ function FormViagem() {
                     <div class="row form-group">
                       <div class="col-md-12">
                         <label for="fullname">Seu Nome</label>
-                        <input type="text" id="fullname" class="form-control" />
+                        <input type="text" id="fullname" class="form-control" placeholder="Nome completo" />
                       </div>
                       <div class="col-md-12">
                         <label for="email">Seu E-mail</label>
-                        <input type="text" id="email" class="form-control" />
+                        <input type="text" id="email" class="form-control" placeholder="E-mail" />
                       </div>
                     </div>
                     <div class="row form-group">
@@ -56,34 +56,9 @@ function FormViagem() {
                     <div class="row form-group">
                       <div class="col-md-12">
                         <label for="date-start">Data da viagem</label>
-                        <input type="text" id="date-start" class="form-control" />
+                        <input type="date" id="date-start" class="form-control" />
                       </div>
-                      <div class="col-md-6">
-                        <label for="mes">Mês</label>
-                        <select name="#" id="mes" class="form-control">
-                          <option value="">Selecione</option>
-                          <option value="">Janeiro</option>
-                          <option value="">Fevereiro</option>
-                          <option value="">Março</option>
-                          <option value="">Abril</option>
-                          <option value="">Maio</option>
-                          <option value="">Junho</option>
-                          <option value="">Julho</option>
-                          <option value="">Agosto</option>
-                          <option value="">Setembro</option>
-                          <option value="">Outubro</option>
-                          <option value="">Novembro</option>
-                          <option value="">Dezembro</option>
-                        </select>
-                      </div>
-                      <div class="col-md-6">
-                        <label for="ano">Ano</label>
-                        <select name="#" id="mes" class="form-control">
-                          <option value="">2022</option>
-
-                        </select>
-                      </div>
-                     
+                                           
                       <div id="botoes-form" class="row form-group">
                         <div class="col-md-6">
                           <input type="submit" class="btn btn-primary btn-block" value="Submit" />
